@@ -158,3 +158,23 @@ h3 {
     opacity: 1;
     cursor: pointer;
 }
+
+/*footer*/
+
+footer {
+    padding: 50px;
+}
+
+
+.main-footer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: antiquewhite;
+    justify-content: center;
+}
+
+#license {
+    font-size: 16px;
+}
