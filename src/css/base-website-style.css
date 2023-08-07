@@ -1,4 +1,7 @@
 @charset "utf-8";
+
+/*fonts*/
+
 @font-face {
     font-family: 'IBMPlexMono-Light';
     src: url('font/IBMPlexMono-Light.ttf');
@@ -13,6 +16,8 @@
     font-family: 'IBMPlexMono-Regular';
     src: url('font/IBMPlexMono-Regular.ttf');
 }
+
+/*style base*/
 
 html {
     box-sizing: border-box;
@@ -29,6 +34,22 @@ body {
     font-size: 16px;
     background-color: #252525;
     color: #FF5C00;
+}
+
+.divisor {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.button {
+    transition: .4s;
+}
+
+.button:hover {
+    transition: .4s;
+    color: #FF9D66;
+    cursor: pointer;
 }
 
 /*header*/
@@ -58,22 +79,6 @@ a {
     white-space: nowrap;
 }
 
-.divisor {
-    width: 100%;
-    height: 1px;
-    background-color: rgba(255, 255, 255, 0.1);
-}
-
-.button {
-    transition: .4s;
-}
-
-.button:hover {
-    transition: .4s;
-    color: #FF9D66;
-    cursor: pointer;
-}
-
 /*main-content*/
 
 .main-content {
@@ -98,14 +103,6 @@ p {
 h1 {
     font-size: 110px;
     font-family: 'IBMPlexMono-Medium',Arial, sans-serif;
-}
-
-#Silva {
-    margin: 0px 0px 50px 0px;
-}
-
-#end-main-text {
-    margin: 0px 0px 15px 0px;
 }
 
 /*main-images*/
