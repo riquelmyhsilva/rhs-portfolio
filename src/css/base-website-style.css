@@ -105,51 +105,10 @@ h1 {
     font-family: 'IBMPlexMono-Medium',Arial, sans-serif;
 }
 
-/*main-images*/
-
-.main-images {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 50px;
-}
-
 h3 {
     font-size: 32px;
     font-family: 'IBMPlexMono-Regular',Arial, sans-serif;
     margin: 15px  0px 15px 0px;
-}
-
-.images-container {
-    display: flex;
-    flex: 1 1;
-}
-
-.image-content {
-    width: 100%;
-}
-
-.image-container {
-    position: relative;
-    display: inline-block;
-}
-
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 99.4%;
-    background-color: rgba(0, 0, 0, 0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 0;
-    transition: opacity 0.5s;
-}
-
-.image-container:hover .overlay {
-    opacity: 1;
-    cursor: pointer;
 }
 
 /*footer*/
