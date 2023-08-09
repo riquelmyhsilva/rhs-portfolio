@@ -43,6 +43,13 @@ h3 {
     margin-top: 50px;
 }
 
+ul {
+    font-family: 'IBMPlexMono-Regular',Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
 li {
     list-style: none;
+    margin-bottom: 8px;
 }
