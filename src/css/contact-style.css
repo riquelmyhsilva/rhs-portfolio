@@ -52,4 +52,35 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }   
+
+.email-text {
+    border: none;
+    background-color: #ffffff07;
+    color: #FF5C00;
+    flex: 1 1 100%;
+    display: flex;
+    width: 100%;
+    margin: 0px;
+}
+
+.email-text:focus {
+    border: 1px solid #FF5C00;
+}
+
+.button-send-email {
+    margin: 5px;
+	text-align: center;
+	border: none;
+	border-radius: 3px;
+	background: transparent;
+	color: #FF5C00;
+	cursor: pointer;
+    flex: 1 1 30px;
+    width: 30px;
+}
+
+.button-send-email:active {
+	color: #FF5C00;
+}
