@@ -1,3 +1,18 @@
+@font-face {
+    font-family: 'IBMPlexMono-Light';
+    src: url('font/IBMPlexMono-Light.ttf');
+}
+
+@font-face {
+    font-family: 'IBMPlexMono-Medium';
+    src: url('font/IBMPlexMono-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'IBMPlexMono-Regular';
+    src: url('font/IBMPlexMono-Regular.ttf');
+}
+
 .tittle-main {
     font-size: 24px;
     margin: 25px 0px 50px ;
@@ -47,8 +62,7 @@ h3 {
 }
 
 .email-box {
-    width: 500px;
-    height: 200px;
+    width: 450px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,10 +77,13 @@ h3 {
     display: flex;
     width: 100%;
     margin: 0px;
-    font-size: 24px;
+    font-size: 20px;
     border-radius: 3px;
     outline: solid 1px transparent;
     transition: outline 1s;
+    font-family: 'IBMPlexMono-Light',Arial, sans-serif;
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 50px;
 }
 
 .email-text:focus {
@@ -79,16 +96,35 @@ h3 {
     transition: outline-color .5s;
 }
 
+.email-text::placeholder {
+    color: #ff5e007a;
+    font-size: 18px;
+    transform: translateY(-2px);
+}
+
+.email-text:focus::placeholder {
+    transition: color .3s;
+    color: transparent;
+}
+
+.email-text:not(:focus)::placeholder {
+    color: #ff5e007a;
+    transition: color .5s;
+}
+
 .button-send-email {
-    margin: 5px;
 	text-align: center;
 	border: none;
 	border-radius: 3px;
 	background: transparent;
 	color: #FF5C00;
 	cursor: pointer;
-    flex: 1 1 30px;
     width: 30px;
+    font-size: 18px;
+    font-family: 'IBMPlexMono-Light',Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    width: 50px;
 }
 
 .button-send-email:active {
