@@ -36,10 +36,6 @@ body {
     color: #FF5C00;
 }
 
-input {
-    font-family: 'IBM Plex Mono', Arial, monospace, sans-serif;
-}
-
 .divisor {
     width: 100%;
     height: 1px;
