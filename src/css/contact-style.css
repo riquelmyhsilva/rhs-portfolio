@@ -63,10 +63,20 @@ h3 {
     display: flex;
     width: 100%;
     margin: 0px;
+    font-size: 24px;
+    border-radius: 3px;
+    outline: solid 1px transparent;
+    transition: outline 1s;
 }
 
 .email-text:focus {
-    border: 1px solid #FF5C00;
+    outline: solid 1px #ff5e0054;
+    transition: outline 1s;
+}
+
+.email-text:not(:focus) {
+    outline-color: transparent;
+    transition: outline-color .5s;
 }
 
 .button-send-email {
