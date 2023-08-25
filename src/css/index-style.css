@@ -47,7 +47,7 @@ a {
     font-family: 'IBMPlexMono-Regular',Arial, sans-serif;
 }
 
-.menu-buttons {
+.menu-buttons-header{
     width: 100%;
     display: inline-flex;
     justify-content: flex-end;
@@ -146,7 +146,7 @@ h3 {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 99.4%;
     background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: center;
@@ -163,22 +163,50 @@ h3 {
 /*footer*/
 
 footer {
-    padding: 50px;
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
 .main-footer {
+<<<<<<< HEAD
     justify-content: center;
     align-items: center;
     display: flex;
     
+=======
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-button-footer {
+    margin-inline: 25px;
+}
+
+.menu-buttons-footer {
+    margin: 25px
+>>>>>>> 4c6ae724f645481c60589cbd6b02d5e8bcc2171f
 }
 
 #license {
     font-size: 16px;
+<<<<<<< HEAD
     background-color: aliceblue;
 }
 
 .nav-button-footer {
     margin: 10px;
+=======
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+>>>>>>> 4c6ae724f645481c60589cbd6b02d5e8bcc2171f
 }
