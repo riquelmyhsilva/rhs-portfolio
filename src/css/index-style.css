@@ -24,6 +24,7 @@ h3 {
 
 .images-container {
     display: flex;
+    flex-wrap: wrap;
     flex: 1 1;
 }
 
@@ -33,7 +34,7 @@ h3 {
 
 .image-container {
     position: relative;
-    display: inline-block;
+    width: 50%;
 }
 
 .overlay {
@@ -50,13 +51,23 @@ h3 {
     transition: opacity 0.5s;
 }
 
+.overlay a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .image-container:hover .overlay {
     opacity: 1;
     cursor: pointer;
 }
 
-#logo-dolby {
+#logo-dolby, #logo-bdc {
     filter:invert(1);
+}
+
+#logo-bdc {
+    width: 65%;
 }
 
 /*footer*/
