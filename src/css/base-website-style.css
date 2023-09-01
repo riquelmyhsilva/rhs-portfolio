@@ -101,7 +101,7 @@ p {
 }
 
 h1 {
-    font-size: clamp(60px, 15vw, 120px);
+    font-size: clamp(50px, 15vw, 120px);
     font-family: 'IBMPlexMono-Medium',Arial, sans-serif;
 }
 
@@ -119,6 +119,15 @@ footer {
     flex-wrap: wrap;
 }
 
+.menu-buttons-footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-button-footer {
+    margin-inline: clamp(1px, 3%, 25px);
+}
 
 .main-footer {
     width: 100%;

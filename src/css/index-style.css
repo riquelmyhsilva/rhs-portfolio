@@ -89,9 +89,6 @@ footer {
     align-items: center;
 }
 
-.nav-button-footer {
-    margin-inline: clamp(1px, 3%, 25px);
-}
 
 .menu-buttons-footer {
     display: flex;
