@@ -52,6 +52,7 @@
 
 .text-container a {
     text-decoration: underline;
+    font-size: clamp(10px, 4vw, 40px);
 }
 
 .next-project-container {
@@ -74,6 +75,7 @@
 
 .next-project-container h1 {
     width: 100%;
+    font-size: clamp(10px, 5vw, 100px);
     display: flex;
     flex-wrap: wrap;
     align-items: center;

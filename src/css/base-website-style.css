@@ -19,6 +19,20 @@
 
 /*style base*/
 
+::-webkit-scrollbar {
+	width: 1px;
+}
+
+*::-webkit-scrollbar-track {
+	background: #252525;
+}
+
+*::-webkit-scrollbar-thumb {
+	background: rgb(37,37,37);
+background: linear-gradient(180deg, rgba(37,37,37,1) 0%, rgba(255,92,0,1) 50%, rgba(37,37,37,1) 100%);
+	border-radius: 20px;
+}
+
 html {
     box-sizing: border-box;
     margin: none;
