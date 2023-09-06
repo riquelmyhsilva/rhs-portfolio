@@ -50,7 +50,7 @@
 
 .text-container p {
     font-size: clamp(10px, 3vw, 25px);
-    margin-bottom: 100px;
+    margin-bottom: 0px;
 }
 
 .text-container a {
@@ -58,7 +58,6 @@
     font-size: clamp(10px, 3vw, 30px);
     width: 100%;
     margin-bottom: 20px;
-
 }
 
 .next-project-container {

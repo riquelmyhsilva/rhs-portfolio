@@ -39,6 +39,8 @@
 .text-container {
     width: 100%;
     margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .text-container h2 {
@@ -47,12 +49,14 @@
 
 .text-container p {
     font-size: clamp(10px, 3vw, 25px);
-    margin-bottom: 100px;
+    margin-bottom: 0px;
 }
 
 .text-container a {
     text-decoration: underline;
-    font-size: clamp(10px, 4vw, 40px);
+    font-size: clamp(10px, 3vw, 30px);
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 .next-project-container {
